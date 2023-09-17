@@ -135,20 +135,30 @@
     <ClCompile Include="RandomGenerator.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BaseState.h" />
     <ClInclude Include="Communicator.h" />
     <ClInclude Include="C_Base.h" />
     <ClInclude Include="EntityManager.h" />
+    <ClInclude Include="FontManager.h" />
     <ClInclude Include="GameContext.h" />
     <ClInclude Include="helper.h" />
     <ClInclude Include="MessageHandler.h" />
     <ClInclude Include="Observer.h" />
     <ClInclude Include="RandomGenerator.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="StateDependent.h" />
+    <ClInclude Include="StateManager.h" />
     <ClInclude Include="SystemManager.h" />
     <ClInclude Include="S_Base.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Entities.cfg" />
+    <None Include="Fonts.cfg" />
     <None Include="Map1.cfg" />
+    <None Include="Sounds.cfg" />
     <None Include="Textures.cfg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

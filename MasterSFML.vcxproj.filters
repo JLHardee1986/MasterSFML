@@ -58,9 +58,6 @@
     <Filter Include="Header Files\Managers\ECS">
       <UniqueIdentifier>{0a14d2aa-f03f-4732-97b3-0ef2c32e15ca}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Managers\Game">
-      <UniqueIdentifier>{9a0f2ea0-c0eb-4429-9eba-01e0b5473b55}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Managers\Game">
       <UniqueIdentifier>{3fd5f028-b29f-45e5-a3c9-a7206ecb509f}</UniqueIdentifier>
     </Filter>
@@ -113,6 +110,30 @@
     <ClInclude Include="Communicator.h">
       <Filter>Helpers\Messaging</Filter>
     </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files\Managers\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Header Files\Managers\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Header Files\Managers\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files\Managers\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="StateDependent.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Textures.cfg">
@@ -123,6 +144,12 @@
     </None>
     <None Include="Map1.cfg">
       <Filter>Resource Files\Config\Scenes</Filter>
+    </None>
+    <None Include="Fonts.cfg">
+      <Filter>Resource Files\Config</Filter>
+    </None>
+    <None Include="Sounds.cfg">
+      <Filter>Resource Files\Config</Filter>
     </None>
   </ItemGroup>
 </Project>
