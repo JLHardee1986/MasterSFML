@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{0c54e529-8b7d-481d-963b-7e7d77830f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{d16912cc-d1a8-48ef-be27-bcbd14549a84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{993281e4-90b9-4f3c-b027-8c1216d34341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{c478b581-093a-49b6-8ca6-dc61bf64a22a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{e8135a22-9882-4555-b29f-d705356a0254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{5e29fd2f-2389-46e7-a557-092b180a9bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{303e53c0-7b12-40f8-ac1c-e5197ee44dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{266f715d-59ee-4b88-a4b7-8025002eb764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{2e949a60-d127-4263-9fb7-d7903c1a8a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers\Resources">
+      <UniqueIdentifier>{80aa64b8-7c77-4b90-903e-2888b9d2d6f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Systems">
+      <UniqueIdentifier>{c19db23b-9757-4e51-b064-a65655f1ea21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems">
+      <UniqueIdentifier>{49bdb8d6-ea3f-458f-b68a-ac034ae6ebf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers\Resources">
+      <UniqueIdentifier>{e866ba0c-bbc5-4600-992f-b41a2caa5f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers\ECS">
+      <UniqueIdentifier>{4695e616-f4fa-462e-af89-ce089d0cd199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers\ECS">
+      <UniqueIdentifier>{0a14d2aa-f03f-4732-97b3-0ef2c32e15ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers\Game">
+      <UniqueIdentifier>{9a0f2ea0-c0eb-4429-9eba-01e0b5473b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers\Game">
+      <UniqueIdentifier>{3fd5f028-b29f-45e5-a3c9-a7206ecb509f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Config">
+      <UniqueIdentifier>{b8fbd787-656c-445f-afaa-16cfd921719e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Config\Scenes">
+      <UniqueIdentifier>{4cb7454b-7a15-42f9-8430-48d7f186708b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers\Messaging">
+      <UniqueIdentifier>{19e48c8d-ed95-476f-a2fe-645ac84320e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomGenerator.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RandomGenerator.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helper.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameContext.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Base.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Header Files\Managers\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="S_Base.h">
+      <Filter>Header Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemManager.h">
+      <Filter>Header Files\Managers\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Helpers\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageHandler.h">
+      <Filter>Helpers\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Communicator.h">
+      <Filter>Helpers\Messaging</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Textures.cfg">
+      <Filter>Resource Files\Config</Filter>
+    </None>
+    <None Include="Entities.cfg">
+      <Filter>Resource Files\Config</Filter>
+    </None>
+    <None Include="Map1.cfg">
+      <Filter>Resource Files\Config\Scenes</Filter>
+    </None>
+  </ItemGroup>
+</Project>
