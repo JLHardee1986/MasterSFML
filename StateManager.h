@@ -3,14 +3,14 @@
 
 #include <SFML/Graphics.hpp>
 
-#include <vector>
+#include <list>
 
 class GameContext;
 class StateDependent;
 class State_Loading;
 enum class StateType : int;
 
-using StateDependents = std::vector<StateDependent>;
+using StateDependents = std::list<StateDependent>;
 
 class StateManager
 {

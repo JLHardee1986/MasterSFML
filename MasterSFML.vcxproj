@@ -139,6 +139,7 @@
     <ClInclude Include="Communicator.h" />
     <ClInclude Include="C_Base.h" />
     <ClInclude Include="EntityManager.h" />
+    <ClInclude Include="FileLoader.h" />
     <ClInclude Include="FontManager.h" />
     <ClInclude Include="GameContext.h" />
     <ClInclude Include="helper.h" />
@@ -153,6 +154,7 @@
     <ClInclude Include="S_Base.h" />
     <ClInclude Include="TextureManager.h" />
     <ClInclude Include="Window.h" />
+    <ClInclude Include="Worker.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Entities.cfg" />
